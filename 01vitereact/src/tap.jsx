@@ -1,6 +1,6 @@
 function Tap(){
     return(
-        <h3>God&aposs Plan</h3>
+        <h3>God&apos;s Plan</h3>
     )
 }
 export default Tap
