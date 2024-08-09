@@ -12,10 +12,16 @@ const addValue = () => {
   // counter = counter + 1  
   if (counter < 200) {
     setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
   }
 };
 const removeValue = () => { 
   if (counter > 0) {
+    setCounter(prevCounter => prevCounter - 1)
+    setCounter(prevCounter => prevCounter - 1)
     setCounter(prevCounter => prevCounter - 1)
   }
 };
@@ -25,9 +31,9 @@ const removeValue = () => {
      <h1>Tap is Funny</h1>
      <h2>Counter value: {counter}</h2>
 
-     <button onClick ={addValue}>Add value: +1</button>
+     <button onClick ={addValue}>Add value: +5</button>
      <br />
-     <button onClick ={removeValue}>Remove value: -1</button>
+     <button onClick ={removeValue}>Remove value: -3</button>
      <p>Count: {counter}</p>
     </>
   )
